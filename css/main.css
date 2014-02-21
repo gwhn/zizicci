@@ -103,14 +103,14 @@ textarea {
     font-family: "Amerika Sans";
     src: local("Amerika Sans"),
     local("Amerika-Sans"),
-    url("/fonts/AMERSN__.ttf");
+    url("../fonts/AMERSN__.ttf");
 }
 
 @font-face {
     font-family: "Rawengulk Sans";
     src: local("Rawengulk Sans"),
     local("Rawengulk-Sans"),
-    url("/fonts/RawengulkSans-094.ttf");
+    url("../fonts/RawengulkSans-094.ttf");
 }
 
 /* GLOBAL STYLES
