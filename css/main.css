@@ -237,7 +237,9 @@ a:hover {
     margin-bottom: 20px;
     text-align: center;
 }
-.marketing h2 {
+.marketing h2,
+.marketing h3,
+.marketing h4 {
     font-weight: normal;
     color: #D4FF26;
 }
@@ -258,8 +260,8 @@ a:hover {
     letter-spacing: -1px;
 }
 
-.featurette .media-heading {
-    color: #D4FF26;
+.featurette img {
+    margin-bottom: 15px;
 }
 
 p.contact {
