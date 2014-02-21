@@ -199,7 +199,7 @@ a:hover {
 .carousel {
     height: 700px;
     margin-bottom: 60px;
-    background-image: url("/img/Metal_Hole.jpg");
+    background-image: url("../img/Metal_Hole.jpg");
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
