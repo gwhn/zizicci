@@ -99,11 +99,57 @@ textarea {
 
 /* GLOBAL STYLES
 -------------------------------------------------- */
+@font-face {
+    font-family: "Amerika Sans";
+    src: local("Amerika Sans"),
+    local("Amerika-Sans"),
+    url("/fonts/AMERSN__.ttf");
+}
+
+@font-face {
+    font-family: "Rawengulk Sans";
+    src: local("Rawengulk Sans"),
+    local("Rawengulk-Sans"),
+    url("/fonts/RawengulkSans-094.ttf");
+}
+
+/* GLOBAL STYLES
+-------------------------------------------------- */
 /* Padding below the footer and lighter body text */
 
 body {
     padding-bottom: 40px;
+    background-color: #45453F;
     color: #FFF5F5;
+    font-family: "Rawengulk Sans", sans-serif;
+    font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Amerika Sans", sans-serif;
+}
+
+a {
+    color: #FFF5F5;
+}
+a:hover {
+    color: #70FFCF;
+}
+
+.btn {
+    font-size: 16px;
+}
+
+.btn-lg {
+    font-size: 18px;
+}
+
+.text-muted {
+    color: #FCEB79;
+}
+
+.lead {
+    color: #70FFCF;
 }
 
 /* Special class on .container surrounding .navbar, used for positioning it into place. */
@@ -114,7 +160,6 @@ body {
     left: 0;
     z-index: 20;
 }
-
 /* Flip around the padding for proper display in narrow viewports */
 .navbar-wrapper .container {
     padding-right: 0;
@@ -124,29 +169,60 @@ body {
     padding-right: 15px;
     padding-left: 15px;
 }
+.navbar-wrapper .navbar-inverse,
+.navbar-wrapper .dropdown-menu {
+    background-color: #45453F;
+    border-color: #70FFCF;
+}
+.navbar-wrapper .navbar-inverse .navbar-nav > .active > a {
+    color: #45453F;
+    background-color: #70FFCF;
+}
+.navbar-wrapper .navbar-inverse .navbar-nav > li > a,
+.navbar-wrapper .dropdown-menu > li > a {
+    color: #FFF5F5;
+    background-color: #45453F;
+}
+.navbar-wrapper .navbar-inverse .navbar-nav > li > a:hover,
+.navbar-wrapper .dropdown-menu > li > a:hover {
+    color: #70FFCF;
+}
+.navbar-wrapper .navbar-brand {
+    color: #70FFCF;
+    font-size: 21px;
+}
+.navbar-wrapper .navbar-toggle .icon-bar {
+    background-color: #70FFCF;
+}
 
 /* Carousel base class */
 .carousel {
-    height: 500px;
+    height: 700px;
     margin-bottom: 60px;
+    background-image: url("/img/Metal_Hole.jpg");
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
     z-index: 10;
+    color: #FFF5F5;
 }
-
+.carousel-caption h1 {
+    color: #D4FF26;
+}
 /* Declare heights because of positioning of img element */
 .carousel .item {
-    height: 500px;
-    background-color: #777;
+    height: 700px;
     min-width: 100%;
+}
+.carousel-inner {
+    border-bottom: 1px solid #70FFCF;
 }
 .carousel-inner > .item > img {
     position: absolute;
     top: 0;
     left: 0;
     min-width: 100%;
-    height: 500px;
+    height: 700px;
 }
 
 /* Pad the edges of the mobile views a bit */
@@ -162,6 +238,7 @@ body {
 }
 .marketing h2 {
     font-weight: normal;
+    color: #D4FF26;
 }
 .marketing .col-lg-4 p {
     margin-right: 10px;
@@ -170,6 +247,7 @@ body {
 
 .featurette-divider {
     margin: 80px 0; /* Space out the Bootstrap <hr> more */
+    border-top: 1px solid #FCEB79;
 }
 
 /* Thin out the marketing headings */
@@ -177,6 +255,17 @@ body {
     font-weight: 300;
     line-height: 1;
     letter-spacing: -1px;
+}
+
+.featurette .media-heading {
+    color: #D4FF26;
+}
+
+p.contact {
+    line-height: 2em;
+}
+.contact i {
+    color: #70FFCF;
 }
 
 @media (min-width: 768px) {
