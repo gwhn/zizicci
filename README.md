@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/gwhn/zizicci.png?label=ready&title=Ready)](https://waffle.io/gwhn/zizicci)
 # [HTML5 Boilerplate](http://html5boilerplate.com)
 
 HTML5 Boilerplate is a professional front-end template for building fast,
